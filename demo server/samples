@@ -1,0 +1,42 @@
+samples :
+
+///////////////////////////////////////////////////////////Post requests////////////////////////////////////////////
+
+http://localhost:3001/auth/signUp/client
+
+{
+    "username":"rahma",
+    "password":"123",
+    "phoneNumber":"0111",
+    "email":"djfdh",
+	
+
+}
+
+
+
+http://localhost:3001/auth/verfiyOtp
+
+{
+ 
+    "phoneNumber":"145454456783336735",
+    "OTP":"3681"
+
+}
+
+
+http://localhost:3001/auth/login/client
+{
+    "email":"",
+    "password":""
+}
+
+
+http://localhost:3001/auth/sendOtp
+{
+ 
+    "phoneNumber":"145454456783336735"
+
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
